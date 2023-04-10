@@ -1,16 +1,19 @@
 ---
-import Logo from './Logo.astro'
 import Themetoggle from './Themetoggle.astro'
 ---
 
 <header>
   <div class="fb items-center">
-    <Logo />
+    <div class="flex items-center gap-2">
+      <img class="w-6" src="https://drremain.cn/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fslogo-color.e736f19a.png&w=384&q=75" />
+      <span class="text-3xl font-bold">
+        Shijiao(尸佼)专属
+      </span>
+    </div>
     <Themetoggle />
   </div>
   <div class="fi mt-2">
-    <span class="gpt-title">ChatGPT</span>
-    <span class="gpt-subtitle">Demo</span>
+    <span class="gpt-title">Dr.ReMain</span>
+    <span class="gpt-subtitle">ChatGPT</span>
   </div>
-  <p mt-1 op-60>Based on OpenAI API (gpt-3.5-turbo).</p>
 </header>
